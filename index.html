@@ -8,14 +8,14 @@
     <nav>
       <h1>BIS</h1>
       <ul>
-        <li>Home</li>
-        <li>About</li>
+        <a href="#Hobbies"><li>Hobbies</li></a>
+        <a href="#Interests"><li>Interests</li></a>
         <li><a href="mailto:email@example.com">rina.filabysh@gmail.com</a></li>
       </ul>
     </nav>
     <main>
       <h1>Hello! I'm Irina</h1>
-      <img width="500" src="images/photo1686570153.jpeg"/>
+      <img width="500" src="images/profile photo.jpeg"/>
       <h1>...</h1>
       <hr/>
 
@@ -26,8 +26,9 @@
             Was a student with the best grades in school.
             In 2022 moved to Ireland.</h4>
       </div>
+      <hr>
 
-      <div>
+      <div id="Interests" class="profile-item">
         <h1>My interests</h1>
         <img width="500" src="images/hiking.jpg"/>
         <h2>Hiking</h2>
@@ -45,19 +46,29 @@
       <div>
         <h1></h1>
         <h2>Music</h2>
-        <img width="500" src="images/photo1686572105.jpeg"/>
+        <img width="500" src="images/music1.jpeg"/>
         <h4>I like to listen to rock music, because it,s emotional, and sounds really good.</h4>
-        <img width="500" src="images/photo1686572130.jpeg"/>
+        <img width="500" src="images/music2.jpeg"/>
         <h4>Old songs for me are the work of art because of their fantastic atmosphire.</h4>
-        <img width="500" src="images/photo1686572268.jpeg"/>
+        <img width="500" src="images/music3.jpeg"/>
         <h4>I enjoy listening to Ukrainian or Russian music, because I can fully understand the lyrics.</h4>
       </div>
+      <hr1>
 
-      <div>
+      <div id="Hobbies" class="profile-item">
         <h1>My hobbies</h1>
-        <img width="500" src="images/photo1686653498.jpeg"/>
-        <img width="500" src="images/photo1686653528.jpeg"/>
-        <img width="386" src="images/photo1686653506.jpeg"/>
+      </div>
+
+        <!-- GALLERY STARTS HERE -->
+
+      <div id="gallery">
+        <button id="prev">◀</button>
+        <img width="500" src="images/photo1686653528.jpeg" id="gallery-img" />
+        <button id="next">▶</button>
+      </div>
+
+      <!-- end gallery -->
+      <div>
         <h4>The main hobby is art, mostly using only black pan.
             Often inanimate objects as things to draw. 
             Other hobbies are knitting, needlework. 
@@ -67,5 +78,6 @@
         <footer>
         <a href="#top">Back to top</a>
         </footer>
+      <script src="script.js"></script>
     </body>
-</html>
+  </html>
